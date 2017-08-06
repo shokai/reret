@@ -1,0 +1,24 @@
+{
+  "name": "reret",
+  "version": "0.0.1",
+  "description": "generate RegExp from ret.js tree",
+  "main": "index.js",
+  "scripts": {
+    "test": "run-s test:*",
+    "test:mocha": "NODE_ENV=test mocha 'test/*.js' --timeout 5000",
+    "test:standard": "standard"
+  },
+  "keywords": [
+    "RegExp",
+    "ret"
+  ],
+  "author": "Sho Hashimoto <hashimoto@shokai.org>",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^4.1.1",
+    "mocha": "^3.5.0",
+    "npm-run-all": "^4.0.2",
+    "ret": "^0.1.14",
+    "standard": "^10.0.2"
+  }
+}

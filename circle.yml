@@ -1,0 +1,15 @@
+machine:
+  node:
+    version: 8.2.1
+  post:
+    - node -v
+    - npm -v
+
+dependencies:
+  override:
+    - npm install
+
+test:
+  override:
+    - npm run test:mocha
+    - npm run test:standard
