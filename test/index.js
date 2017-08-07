@@ -2,7 +2,7 @@
 
 import {assert} from 'chai'
 import ret from 'ret'
-import reret from '../'
+import reret from '../src/'
 
 describe('reret', function () {
   describe('simple', function () {
