@@ -1,7 +1,7 @@
 {
   "name": "reret",
   "version": "0.0.1",
-  "description": "generate RegExp from ret.js tree",
+  "description": "re-generate RegExp from ret.js AST",
   "main": "index.js",
   "scripts": {
     "build": "run-s build:*",
